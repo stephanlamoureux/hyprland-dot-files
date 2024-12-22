@@ -1,0 +1,50 @@
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+dynamic_padding = false
+opacity = 0.6
+
+[window.padding]
+x = 0
+y = 0
+
+[font]
+size = 15.0
+
+[font.bold]
+family = "CaskaydiaMono Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "CaskaydiaMono Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "CaskaydiaMono Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "CaskaydiaMono Nerd Font"
+style = "Regular"
+
+[cursor]
+blink_interval = 500
+
+[cursor.style]
+shape = "Beam"
+blinking = "Always"
+
+[general]
+import = [
+	#"~/.config/alacritty/themes/catppuccin-latte.toml"
+	# "~/.config/alacritty/themes/catppuccin-frappe.toml"
+	# "~/.config/alacritty/themes/catppuccin-macchiato.toml"
+	"~/.config/alacritty/themes/catppuccin-mocha.toml",
+]
+
+# autostart tmux
+# [shell]
+# program = "/bin/bash"
+# args = ["-c", "~/.config/alacritty/start_tmux.sh"]

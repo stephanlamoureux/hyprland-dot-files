@@ -1,0 +1,28 @@
+[global]
+gap_size = 20
+history_length = 100
+frame_color = "#94e2d5"
+separator_color = frame
+frame_width = 2
+corner_radius = 8
+padding = 20
+horizontal_padding = 20
+line_height = 5
+font = Arimo Nerd Font 12
+transparency = 0  # Transparency handled by the bg color
+width = 400
+alignment = left
+offset = 40x40
+
+[urgency_low]
+background = "#1e1e2eb2"  # 70% opacity
+foreground = "#cdd6f4"
+
+[urgency_normal]
+background = "#1e1e2eb2"  # 70% opacity
+foreground = "#cdd6f4"
+
+[urgency_critical]
+background = "#1e1e2eb2"  # 70% opacity
+foreground = "#cdd6f4"
+frame_color = "#fab387"

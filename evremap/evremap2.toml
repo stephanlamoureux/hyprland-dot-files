@@ -1,0 +1,6 @@
+device_name = "NuPhy NuPhy Halo75 V2"
+
+[[dual_role]]
+input = "KEY_CAPSLOCK"
+hold = ["KEY_LEFTCTRL"]
+tap = ["KEY_ESC"]

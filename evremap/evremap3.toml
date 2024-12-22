@@ -1,0 +1,6 @@
+device_name = "Nordic Semiconductor NuPhy Halo75 V2 Dongle"
+
+[[dual_role]]
+input = "KEY_CAPSLOCK"
+hold = ["KEY_LEFTCTRL"]
+tap = ["KEY_ESC"]

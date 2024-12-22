@@ -1,0 +1,16 @@
+# Profile when the external monitor is connected
+profile {
+    output eDP-1 disable
+    output DP-5 enable mode 2560x1440 position 0,0 scale 1
+}
+
+# Profile when the external monitor is disconnected
+profile {
+    output eDP-1 enable mode 1920x1200 position 0,0 scale 1
+    output DP-5 disable
+}
+
+# Default profile to match any state
+profile {
+    output eDP-1 enable mode 1920x1200 position 0,0 scale 1
+}

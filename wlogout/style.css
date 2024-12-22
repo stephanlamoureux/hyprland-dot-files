@@ -1,0 +1,146 @@
+* {
+	background-image: none;
+	box-shadow: none;
+}
+
+window {
+	background-color: transparent;
+	transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+
+grid {
+	box-shadow: 1px 1px 15px 8px rgba(0, 0, 0, 0.6);
+	border-radius: 16px;
+}
+
+button {
+	border-radius: 0;
+	border-color: rgb(17, 17, 27);
+	text-decoration-color: #cba6f7;
+	color: #cba6f7;
+	background-color: rgb(30, 30, 46);
+	border-style: solid;
+	border-width: 1px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+	font-size: 1.4em;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	font-family: 'Arimo Nerd Font';
+}
+
+button:focus {
+	outline-style: none;
+	background-color: rgb(30, 30, 46);
+}
+
+button:active,
+button:hover {
+	background-color: rgba(136, 57, 239, 0.6);
+	color: #ffffff;
+	outline-style: none;
+}
+
+#lock {
+	background-image: image(
+		url('/home/stephan/.config/wlogout/icons/lock_mauve.png')
+	);
+	border-top-left-radius: 16px;
+	transition: background-image 0.2s ease-in-out, border-radius 0.2s ease-in-out,
+		background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+#lock:hover {
+	background-image: image(
+		url('/home/stephan/.config/wlogout/icons/lock_white.png')
+	);
+	border-top-left-radius: 16px;
+	background-color: rgba(136, 57, 239, 0.6);
+	color: #ffffff;
+}
+
+#logout {
+	background-image: image(
+		url('/home/stephan/.config/wlogout/icons/logout_mauve.png')
+	);
+	transition: background-image 0.2s ease-in-out,
+		background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+#logout:hover {
+	background-image: image(
+		url('/home/stephan/.config/wlogout/icons/logout_white.png')
+	);
+	background-color: rgba(136, 57, 239, 0.6);
+	color: #ffffff;
+}
+
+#suspend {
+	background-image: image(
+		url('/home/stephan/.config/wlogout/icons/suspend_mauve.png')
+	);
+	border-top-right-radius: 16px;
+	transition: background-image 0.2s ease-in-out, border-radius 0.2s ease-in-out,
+		background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+#suspend:hover {
+	background-image: image(
+		url('/home/stephan/.config/wlogout/icons/suspend_white.png')
+	);
+	border-top-right-radius: 16px;
+	background-color: rgba(136, 57, 239, 0.6);
+	color: #ffffff;
+}
+
+#hibernate {
+	background-image: image(
+		url('/home/stephan/.config/wlogout/icons/hibernate_mauve.png')
+	);
+	border-bottom-left-radius: 16px;
+	transition: background-image 0.2s ease-in-out, border-radius 0.2s ease-in-out,
+		background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+#hibernate:hover {
+	background-image: image(
+		url('/home/stephan/.config/wlogout/icons/hibernate_white.png')
+	);
+	border-bottom-left-radius: 16px;
+	background-color: rgba(136, 57, 239, 0.6);
+	color: #ffffff;
+}
+
+#shutdown {
+	background-image: image(
+		url('/home/stephan/.config/wlogout/icons/shutdown_mauve.png')
+	);
+	transition: background-image 0.2s ease-in-out,
+		background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+#shutdown:hover {
+	background-image: image(
+		url('/home/stephan/.config/wlogout/icons/shutdown_white.png')
+	);
+	background-color: rgba(136, 57, 239, 0.6);
+	color: #ffffff;
+}
+
+#reboot {
+	background-image: image(
+		url('/home/stephan/.config/wlogout/icons/reboot_mauve.png')
+	);
+	border-bottom-right-radius: 16px;
+	transition: background-image 0.2s ease-in-out, border-radius 0.2s ease-in-out,
+		background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+#reboot:hover {
+	background-image: image(
+		url('/home/stephan/.config/wlogout/icons/reboot_white.png')
+	);
+	border-bottom-right-radius: 16px;
+	background-color: rgba(136, 57, 239, 0.6);
+	color: #ffffff;
+}
