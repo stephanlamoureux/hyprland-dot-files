@@ -1,0 +1,7 @@
+theme = catppuccin-mocha
+font-family = CaskaydiaCove Nerd Font
+font-size = 16
+background-opacity = 0.6
+gtk-titlebar = false
+window-padding-x = 10
+window-padding-y = 10

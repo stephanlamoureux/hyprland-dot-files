@@ -1,0 +1,81 @@
+* {
+	font-family: 'Arimo Nerd Font', monospace;
+	font-size: 14px;
+}
+
+window {
+	margin: 0px;
+	background-color: rgba(30, 30, 46, 0.6);
+}
+
+#input {
+	all: unset;
+	min-height: 36px;
+	padding: 4px 10px;
+	margin: 4px;
+	border: none;
+	color: #cdd6f4;
+	font-weight: bold;
+	outline: none;
+	border-radius: 16px;
+	margin: 10px;
+	margin-bottom: 2px;
+}
+
+#inner-box {
+	margin: 4px;
+	padding: 10px;
+	font-weight: bold;
+	border-radius: 16px;
+}
+
+#outer-box {
+	margin: 0;
+	padding: 3px;
+}
+
+#scroll {
+	margin-top: 5px;
+	border: none;
+	border-radius: 16px;
+	margin-bottom: 5px;
+}
+
+#text {
+	color: #cdd6f4;
+	border-radius: 16px;
+	padding-left: 8px;
+}
+
+#text:selected {
+	color: #1e1e2e;
+	margin: 0;
+	border: none;
+	border-radius: 16px;
+}
+
+#entry {
+	margin: 0 0 5px 0;
+	border: none;
+	border-radius: 16px;
+	background-color: transparent;
+}
+
+#entry:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+#entry:selected {
+	margin: 0 0 5px 0;
+	border: none;
+	border-radius: 8px;
+	background: #cba6f7;
+	background: linear-gradient(
+		90deg,
+		#cba6f7 60%,
+		rgba(116, 199, 236, 0.8) 100%
+	);
+	background-clip: padding-box;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
