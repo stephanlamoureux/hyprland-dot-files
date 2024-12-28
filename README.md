@@ -1,3 +1,3 @@
-<img src="term.png">
+<img src="kitty.png">
 
 <img src="hypr.png">
