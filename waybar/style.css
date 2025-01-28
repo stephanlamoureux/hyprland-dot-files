@@ -142,13 +142,13 @@ label:focus {
 }
 
 #battery {
-	color: @pink;
+	color: @green;
 	border-radius: 8px;
 }
 
 #battery.charging,
 #battery.plugged {
-	color: @teal;
+	color: @sapphire;
 }
 
 @keyframes blink {
@@ -179,25 +179,25 @@ label:focus {
 }
 
 #power-profiles-daemon.performance {
-	color: @red;
+	color: @pink;
 	padding-left: 12px;
 	padding-right: 14px;
 }
 
 #power-profiles-daemon.balanced {
-	color: @mauve;
+	color: @lavender;
 	padding-right: 16px;
 	padding-left: 16px;
 }
 
 #power-profiles-daemon.power-saver {
-	color: @green;
+	color: @teal;
 	padding-right: 14px;
 	padding-left: 16px;
 }
 
 #idle_inhibitor {
-	color: @flamingo;
+	color: @overlay1;
 	padding-left: 15px;
 	padding-right: 14px;
 	border-radius: 8px;
@@ -230,7 +230,7 @@ label:focus {
 }
 
 #clock {
-	color: @lavender;
+	color: @mauve;
 	padding-top: 7px;
 }
 

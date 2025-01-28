@@ -4,15 +4,17 @@
 	"icon-theme": "Papirus",
 	"height": 30,
 	"spacing": 4,
-	"modules-left": [
-		"custom/launcher",
-		"battery",
+	"modules-left": ["custom/launcher", "clock"],
+	"modules-center": ["hyprland/workspaces"],
+	"modules-right": [
 		"backlight",
 		"power-profiles-daemon",
-		"idle_inhibitor"
+		"idle_inhibitor",
+		"tray",
+		"pulseaudio",
+		"battery",
+		"custom/power"
 	],
-	"modules-center": ["hyprland/workspaces"],
-	"modules-right": ["pulseaudio", "clock", "tray", "custom/power"],
 	"hyprland/workspaces": {
 		"format": "<span font='18px'>{icon}</span>",
 		"format-icons": {
