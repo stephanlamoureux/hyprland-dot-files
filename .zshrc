@@ -125,7 +125,7 @@ source "$ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
 alias icat="kitten icat"
 alias cat="bat"
-alias code="/usr/bin/code --no-sandbox --ozone-platform=wayland"
+alias code="vscodium --ozone-platform=wayland"
 alias c="clear"
 alias update="yay -Syu && flatpak update -y && flatpak uninstall --unused && sudo snap refresh"
 alias l='exa -lah'
