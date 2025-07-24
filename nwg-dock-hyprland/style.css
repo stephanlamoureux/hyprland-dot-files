@@ -1,0 +1,43 @@
+window {
+  background: #1e1e2e; /* Mocha base */
+  border-radius: 10px;
+  border-style: none;
+  border-width: 1px;
+  border-color: rgba(108, 112, 134, 0.7); /* Surface0 */
+}
+
+#box {
+  padding: 10px;
+}
+
+#active {
+  border-top: solid 1px;
+  border-color: rgba(243, 139, 168, 0.5); /* Rosewater with opacity */
+  border-radius: 10px;
+}
+
+button, image {
+  background: none;
+  border-style: none;
+  box-shadow: none;
+  color: #a6adc8; /* Subtext0 */
+}
+
+button {
+  padding: 4px 6px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 2px;
+  color: #cdd6f4; /* Text */
+  font-size: 12px;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+button:hover {
+  background-color: rgba(49, 50, 68, 0.5); /* Surface1 */
+  border-radius:4px;
+}
+
+button:focus {
+  box-shadow: none;
+}
