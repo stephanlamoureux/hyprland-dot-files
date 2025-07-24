@@ -1,4 +1,4 @@
-<img src="screenshots/desktop.png">
+<img src="screenshots/empty-desktop.png">
 
 <img src="screenshots/nvim-vscode.png">
 
