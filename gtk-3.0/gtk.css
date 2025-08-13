@@ -1,0 +1,26 @@
+/* Hide the star icon overlay on favorited directories in Nemo */
+
+.nemo-starred-emblem {
+    display: none;
+}
+
+NemoIconView.view .starred-emblem {
+    display: none;
+}
+
+NemoListView.view .starred-emblem {
+    display: none;
+}
+
+.nemo-starred-emblem {
+    display: none;
+}
+
+/* Hide the star icon overlay on favorited directories in Nemo without triggering GTK parsing errors
+
+.nemo-starred-emblem,
+NemoIconView.view .starred-emblem,
+NemoListView.view .starred-emblem {
+    opacity: 0.0;
+}
+*/

@@ -1,9 +1,11 @@
 window {
-  background: #1e1e2e; /* Mocha base */
+  /* Mocha base */
+  background: rgba(30, 30, 46, 1);
   border-radius: 10px;
-  border-style: none;
+  border-style: solid;
   border-width: 1px;
-  border-color: rgba(108, 112, 134, 0.7); /* Surface0 */
+  /* Mantle */
+  border-color: rgba(24, 24, 37, 0.6);
 }
 
 #box {
@@ -12,15 +14,18 @@ window {
 
 #active {
   border-top: solid 1px;
-  border-color: rgba(243, 139, 168, 0.5); /* Rosewater with opacity */
+  /* Rosewater */
+  border-color: rgba(243, 139, 168, 0.5);
   border-radius: 10px;
 }
 
-button, image {
+button,
+image {
   background: none;
   border-style: none;
   box-shadow: none;
-  color: #a6adc8; /* Subtext0 */
+  /* Subtext0 */
+  color: #a6adc8;
 }
 
 button {
@@ -28,14 +33,16 @@ button {
   margin-left: 4px;
   margin-right: 4px;
   margin-bottom: 2px;
-  color: #cdd6f4; /* Text */
+  /* Text */
+  color: #cdd6f4;
   font-size: 12px;
   transition: background-color 0.2s ease, transform 0.15s ease;
 }
 
 button:hover {
-  background-color: rgba(49, 50, 68, 0.5); /* Surface1 */
-  border-radius:4px;
+  /* Surface1 */
+  background-color: rgba(49, 50, 68, 0.5);
+  border-radius: 4px;
 }
 
 button:focus {

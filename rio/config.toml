@@ -1,0 +1,32 @@
+# Editor
+editor = 'nvim'
+
+# Cursor
+cursor = '▇'
+blinking-cursor = true
+
+# Theme
+theme = "catppuccin-mocha"
+
+# Padding
+padding-x = 10
+padding-y = 10
+
+[window]
+foreground-opacity = 0.6
+background-opacity = 0.6
+blur = true
+decorations = "Enabled"
+
+[renderer]
+performance = "High"
+backend = "Automatic"
+disable-renderer-when-unfocused = false
+
+[fonts]
+family = "IBM Plex Mono"
+size = 16
+
+[navigation]
+mode = "BottomTab"
+clickable = true

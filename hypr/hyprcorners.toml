@@ -1,0 +1,6 @@
+timeout = 50
+activation_delay_ms = 0
+
+[bottom_left]
+dispatcher = "exec"
+args = "nwg-drawer"

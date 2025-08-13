@@ -1,0 +1,38 @@
+/* ~/.config/wofi-emoji/wofi-emoji.css */
+
+/* General Wofi Styles */
+* {
+	font-family: 'Sans';
+	background-color: #282c34;
+	color: #abb2bf;
+	opacity: 0.5;
+}
+
+/* Selected Item */
+*:selected {
+	background-color: #61afef;
+	color: #282c34;
+}
+
+/* Input Field */
+input {
+	border: 1px solid #61afef;
+	padding: 5px;
+	font-size: 14px;
+}
+
+/* List of Items */
+list {
+	padding: 10px;
+}
+
+/* Individual Items */
+listitem {
+	padding: 5px;
+	border-bottom: 1px solid #3e4451;
+}
+
+/* Hover Effect */
+listitem:hover {
+	background-color: #3e4451;
+}
