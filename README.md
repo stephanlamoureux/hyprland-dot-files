@@ -1,6 +1,8 @@
 <img src="screenshots/desktop.png">
 
-<img src="screenshots/nvim-vscode.png">
+<img src="screenshots/drawer.png">
+
+<img src="screenshots/editors.png">
 
 <img src="screenshots/spotify-firefox.png">
 
