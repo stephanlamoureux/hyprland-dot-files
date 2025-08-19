@@ -4,6 +4,8 @@
 
 <img src="screenshots/editors.png">
 
+<img src="screenshots/files.png">
+
 <img src="screenshots/spotify-firefox.png">
 
 <img src="screenshots/app-launcher.png">
