@@ -3,20 +3,23 @@ font-family: "JetBrainsMono Nerd Font", sans-serif;
 font-size: 16px;
 }*/
 
-window > box {
+window>box {
     padding-top: 36px;
     padding-bottom: 36px;
 }
 
 window {
-    background-color: transparent; /* rgba(30, 30, 46, 0.65) Mocha base */
-    color: #cdd6f4; /* Text */
+    /* Mocha crust */
+    background-color: #11111b;
+    color: #cdd6f4;
+    /* Text */
     padding: 10px;
 }
 
 /* Search entry */
 entry {
-    background-color: rgba(49, 50, 68, 0.7); /* Surface0 */
+    background-color: rgba(49, 50, 68, 0.7);
+    /* Surface0 */
     color: #cdd6f4;
     border: none;
     border-radius: 8px;
@@ -25,7 +28,8 @@ entry {
 }
 
 /* Buttons and images */
-button, image {
+button,
+image {
     background: none;
     border: none;
     color: #cdd6f4;
@@ -33,32 +37,36 @@ button, image {
 
 /* Button hover effect */
 button:hover {
-    background-color: rgba(49, 50, 68, 0.5); /* Surface1 */
+    background-color: rgba(49, 50, 68, 0.5);
+    /* Surface1 */
     border-radius: 6px;
 }
 
 /* Category buttons */
 #category-button {
-margin: 0 10px;
-color: #f5c2e7; /* Pink */
+    margin: 0 10px;
+    color: #f5c2e7;
+    /* Pink */
 }
 
 /* Pinned apps container */
 #pinned-box {
-padding-bottom: 5px;
-border-bottom: 1px dotted #6c7086; /* Surface0 */
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #6c7086;
+    /* Surface0 */
 }
 
 /* File results box */
 #files-box {
-padding: 5px;
-border: 1px dotted #6c7086;
-border-radius: 12px;
+    padding: 5px;
+    border: 1px dotted #6c7086;
+    border-radius: 12px;
 }
 
 /* Math operation result */
 #math-label {
-font-weight: bold;
-font-size: 16px;
-color: #fab387; /* Peach */
+    font-weight: bold;
+    font-size: 16px;
+    color: #fab387;
+    /* Peach */
 }
