@@ -44,11 +44,11 @@
         "fontColorPrimary": "#cdd6f4",
         "fontColorSecondary": "#bac2de",
         "fontColorTertiary": "#a6adc8",
-        "fontColorWarning": "#f38ba8",
+        "fontColorWarning": "#f9e2af",
         "fontColorBrand": "#cba6f7",
-        "fontColorDanger": "#730000",
+        "fontColorDanger": "#1e1e2e",
         "fontColorDisable": "#A19F9D",
-        "bgDanger": "#fd8888",
+        "bgDanger": "#f9e2af",
         "bgBrand": "#cba6f7",
         "bgBrandHover": "#b4befe",
         "bgBrandHoverSecondary": "#cba6f7",
@@ -57,7 +57,7 @@
         "red": "#f38ba8",
         "blue": "#89b4fa",
         "skyblue": "#89dceb",
-        "purple": "#7a45bf",
+        "purple": "#cba6f7",
         "green": "#a6e3a1"
     }
 }
