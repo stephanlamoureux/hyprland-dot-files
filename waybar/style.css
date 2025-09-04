@@ -137,7 +137,8 @@ window#waybar.hidden {
 }
 
 #battery {
-	margin-right: 4px;
+	margin-right: 0;
+	padding-right: 6px;
 }
 
 #custom-power {
@@ -151,4 +152,14 @@ window#waybar.hidden {
 	animation-timing-function: steps(20);
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+}
+
+/* apply only when Waybar is on the laptop screen (eDP-1) */
+window#waybar.eDP-1 .modules-right #pulseaudio {
+	margin-right: 6px;
+}
+
+window#waybar.eDP-1 .modules-right #battery {
+	margin-right: 4px;
+	padding-right: 8px;
 }

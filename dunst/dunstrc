@@ -15,14 +15,14 @@ alignment = left
 offset = 40x40
 
 [urgency_low]
-background = "#1e1e2eb2"  # 70% opacity
-foreground = "#cdd6f4"
+background = "#11111bb2"  # Mocha Crust 70% opacity
+foreground = "#cdd6f4" # Mocha text
 
 [urgency_normal]
-background = "#1e1e2eb2"  # 70% opacity
+background = "#11111bb2"  # 70% opacity
 foreground = "#cdd6f4"
 
 [urgency_critical]
-background = "#1e1e2eb2"  # 70% opacity
+background = "#111111b2"  # 70% opacity
 foreground = "#cdd6f4"
 frame_color = "#fab387"

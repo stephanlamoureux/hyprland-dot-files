@@ -4,3 +4,6 @@ activation_delay_ms = 0
 [bottom_left]
 dispatcher = "exec"
 args = "nwg-drawer"
+
+screen_width = 2560
+screen_height = 1440

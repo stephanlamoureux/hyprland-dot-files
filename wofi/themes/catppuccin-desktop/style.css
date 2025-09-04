@@ -12,7 +12,6 @@ window {
 	all: unset;
 	min-height: 36px;
 	padding: 4px 10px;
-	margin: 4px;
 	border: none;
 	color: #cdd6f4;
 	font-weight: bold;
@@ -71,11 +70,9 @@ window {
 	border: none;
 	border-radius: 8px;
 	background: #cba6f7;
-	background: linear-gradient(
-		90deg,
-		#cba6f7 60%,
-		rgba(116, 199, 236, 0.8) 100%
-	);
+	background: linear-gradient(90deg,
+			#cba6f7 60%,
+			rgba(116, 199, 236, 0.8) 100%);
 	background-clip: padding-box;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }

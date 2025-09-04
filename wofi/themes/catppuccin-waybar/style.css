@@ -10,13 +10,14 @@ window {
 
 #input {
 	all: unset;
-	padding: 0;
+	padding: 4px 10px;
 	border: none;
 	color: #cdd6f4;
 	font-weight: bold;
 	outline: none;
 	border-radius: 16px;
-	margin: 0;
+	margin: 10px 10px 2px 10px;
+	min-height: 50px;
 }
 
 #inner-box {
@@ -54,7 +55,7 @@ window {
 }
 
 #entry {
-	margin: 0 20px 10px 0;
+	margin: 0 0 5px 0;
 	border: none;
 	border-radius: 16px;
 	background-color: transparent;
@@ -66,10 +67,13 @@ window {
 }
 
 #entry:selected {
-	margin: 0 20px 10px 0;
+	margin: 0 0 5px 0;
 	border: none;
 	border-radius: 8px;
 	background: #cba6f7;
+	background: linear-gradient(90deg,
+			#cba6f7 60%,
+			rgba(116, 199, 236, 0.8) 100%);
 	background-clip: padding-box;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }

@@ -11,8 +11,8 @@
 		"clock"
 	],
 	"modules-right": [
-		"backlight",
 		"group/tray-expander",
+		"backlight",
 		"pulseaudio",
 		"battery",
 		"custom/power"
@@ -246,7 +246,7 @@
 	"custom/launcher": {
 		"interval": "once",
 		"format": "",
-		"on-click": "wofi --show drun -c ~/.config/wofi/config2/config2 -s ~/.config/wofi/themes/catppuccin-waybar/style.css",
+		"on-click": "wofi --show drun -c ~/.config/wofi/drawer/config -s ~/.config/wofi/themes/catppuccin-waybar/style.css",
 		"tooltip": false
 	}
 }
