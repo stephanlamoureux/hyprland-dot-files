@@ -4,31 +4,61 @@
 profile docked-dp5 {
     output DP-5 enable mode 2560x1440 position 0,0 scale 1
     output eDP-1 disable
-    exec ~/scripts/refresh_display.sh
+    exec /home/stephan/scripts/refresh_display.sh
+    exec /home/stephan/scripts/hyprcorners-launch.sh 2560 1440
 }
 
 # Docked via DP-6
 profile docked-dp6 {
     output DP-6 enable mode 2560x1440 position 0,0 scale 1
     output eDP-1 disable
-    exec ~/scripts/refresh_display.sh
+    exec /home/stephan/scripts/refresh_display.sh
+    exec /home/stephan/scripts/hyprcorners-launch.sh 2560 1440
 }
 
 # Docked via HDMI
 profile docked-hdmi {
     output HDMI-A-1 enable mode 2560x1440 position 0,0 scale 1
     output eDP-1 disable
-    exec ~/scripts/refresh_display.sh
+    exec /home/stephan/scripts/refresh_display.sh
+    exec /home/stephan/scripts/hyprcorners-launch.sh 2560 1440
 }
 
-# Undocked (panel only) — IMPORTANT: only list eDP-1 here
+# Undocked (panel only)
 profile undocked {
     output eDP-1 enable mode 1920x1200@60 position 0,0 scale 1
-    exec ~/scripts/refresh_display.sh
+    exec /home/stephan/scripts/refresh_display.sh
+    exec /home/stephan/scripts/hyprcorners-launch.sh 1920 1200
 }
 
-# (Optional) Fallback, same as undocked
+# Fallback
 profile fallback {
     output eDP-1 enable mode 1920x1200@60 position 0,0 scale 1
-    exec ~/scripts/refresh_display.sh
+    exec /home/stephan/scripts/refresh_display.sh
+    exec /home/stephan/scripts/hyprcorners-launch.sh 1920 1200
 }
+
+
+# -----------------------------------------------------------
+# Kanshi runs as a user service under systemd.
+# Service file: ~/.config/systemd/user/kanshi.service
+#
+# [Unit]
+# Description=Kanshi display manager
+# PartOf=graphical-session.target
+# After=graphical-session.target
+#
+# [Service]
+# ExecStart=/usr/bin/kanshi
+# Restart=always
+# RestartSec=5
+#
+# [Install]
+# WantedBy=default.target
+#
+# Enable + start kanshi with:
+#   systemctl --user enable --now kanshi
+#
+# Check its status with:
+#   systemctl --user status kanshi
+# -----------------------------------------------------------
