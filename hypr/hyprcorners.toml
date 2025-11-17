@@ -3,7 +3,7 @@ timeout = 50
 screen_width  = 2560
 screen_height = 1440
 
-[top_left]
+[bottom_left]
 radius = 10
 
 [top_right]
@@ -12,7 +12,7 @@ radius = 10
 [bottom_right]
 radius = 10
 
-[bottom_left]
+[top_left]
 radius     = 10
 dispatcher = "exec"
 args       = "/usr/bin/nwg-drawer"

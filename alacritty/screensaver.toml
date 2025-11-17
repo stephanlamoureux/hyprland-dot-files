@@ -1,0 +1,12 @@
+[window]
+opacity = 1.0
+decorations = "none"
+dynamic_padding = true
+startup_mode = "Maximized"   # Hypr will still force fullscreen via rule
+
+[font]
+size = 18
+
+[colors.primary]
+background = "#000000"
+foreground = "#FFFFFF"

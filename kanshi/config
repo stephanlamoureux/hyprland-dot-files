@@ -5,7 +5,9 @@ profile docked-dp5 {
     output DP-5 enable mode 2560x1440 position 0,0 scale 1
     output eDP-1 disable
     exec /home/stephan/scripts/refresh_display.sh
-    exec /home/stephan/scripts/hyprcorners-launch.sh 2560 1440
+    #exec /home/stephan/scripts/hyprcorners-launch.sh 2560 1440
+    exec hyprctl dispatch moveworkspacetomonitor 1 DP-5
+    exec hyprctl dispatch workspace 1
 }
 
 # Docked via DP-6
@@ -13,7 +15,9 @@ profile docked-dp6 {
     output DP-6 enable mode 2560x1440 position 0,0 scale 1
     output eDP-1 disable
     exec /home/stephan/scripts/refresh_display.sh
-    exec /home/stephan/scripts/hyprcorners-launch.sh 2560 1440
+    #exec /home/stephan/scripts/hyprcorners-launch.sh 2560 1440
+    exec hyprctl dispatch moveworkspacetomonitor 1 DP-6
+    exec hyprctl dispatch workspace 1
 }
 
 # Docked via HDMI
@@ -21,21 +25,27 @@ profile docked-hdmi {
     output HDMI-A-1 enable mode 2560x1440 position 0,0 scale 1
     output eDP-1 disable
     exec /home/stephan/scripts/refresh_display.sh
-    exec /home/stephan/scripts/hyprcorners-launch.sh 2560 1440
+    #exec /home/stephan/scripts/hyprcorners-launch.sh 2560 1440
+    exec hyprctl dispatch moveworkspacetomonitor 1 HDMI-A-1
+    exec hyprctl dispatch workspace 1
 }
 
 # Undocked (panel only)
 profile undocked {
     output eDP-1 enable mode 1920x1200@60 position 0,0 scale 1
     exec /home/stephan/scripts/refresh_display.sh
-    exec /home/stephan/scripts/hyprcorners-launch.sh 1920 1200
+    #exec /home/stephan/scripts/hyprcorners-launch.sh 1920 1200
+    exec hyprctl dispatch moveworkspacetomonitor 1 eDP-1
+    exec hyprctl dispatch workspace 1
 }
 
 # Fallback
 profile fallback {
     output eDP-1 enable mode 1920x1200@60 position 0,0 scale 1
     exec /home/stephan/scripts/refresh_display.sh
-    exec /home/stephan/scripts/hyprcorners-launch.sh 1920 1200
+    #exec /home/stephan/scripts/hyprcorners-launch.sh 1920 1200
+    exec hyprctl dispatch moveworkspacetomonitor 1 eDP-1
+    exec hyprctl dispatch workspace 1
 }
 
 

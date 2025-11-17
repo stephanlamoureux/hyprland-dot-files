@@ -51,7 +51,7 @@ window#waybar.hidden {
 	padding: 8px;
 	color: #dfdfdf;
 	background-color: @crust;
-	min-width: 14px;
+	min-width: 20px;
 }
 
 /* --- Left Modules --- */
@@ -129,20 +129,19 @@ window#waybar.hidden {
 	color: @overlay1;
 }
 
+#custom-power {
+	margin-right: 4px;
+}
+
+#battery {
+	margin-right: 0px;
+}
+
 @keyframes blink {
 	to {
 		background-color: @crust;
 		color: rgba(237, 135, 150, 0.5);
 	}
-}
-
-#battery {
-	margin-right: 0;
-	padding-right: 6px;
-}
-
-#custom-power {
-	margin-right: 4px;
 }
 
 #battery.critical:not(.charging) {
@@ -155,11 +154,11 @@ window#waybar.hidden {
 }
 
 /* apply only when Waybar is on the laptop screen (eDP-1) */
-window#waybar.eDP-1 .modules-right #pulseaudio {
+/* window#waybar.eDP-1 .modules-right #pulseaudio {
 	margin-right: 6px;
 }
 
 window#waybar.eDP-1 .modules-right #battery {
 	margin-right: 4px;
 	padding-right: 8px;
-}
+} */
